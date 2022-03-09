@@ -1,0 +1,23 @@
+{
+  "name": "logic-gate",
+  "version": "1.0.0",
+  "description": "Logic gate operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhranjan/logic-gate.git"
+  },
+  "author": "Ranjan Adhikari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adhranjan/logic-gate/issues"
+  },
+  "homepage": "https://github.com/adhranjan/logic-gate#readme",
+  "dependencies": {
+    "boolean": "^3.2.0",
+    "is-function": "^1.0.2"
+  }
+}
