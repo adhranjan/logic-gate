@@ -1,4 +1,3 @@
-const boolean = require('boolean');
 const isFunction = require('is-function');
 const check = (...params) => {
     return params.reduce(
@@ -6,7 +5,7 @@ const check = (...params) => {
             if (isFunction(currentValue)) {
                 currentValue = currentValue()  
             }
-            return boolean.boolean(currentValue) && boolean.boolean(previousValue)
+            return Boolean(currentValue) && Boolean(previousValue)
         },
         true
       );

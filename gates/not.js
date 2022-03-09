@@ -1,4 +1,3 @@
-const boolean = require('boolean');
 const isFunction = require('is-function');  
 
 const check = (...params) => {
@@ -7,8 +6,8 @@ const check = (...params) => {
     }
     let p = params[0];
     if (isFunction(p)) {
-        return !boolean.boolean(p())  
+        return !Boolean(p())  
     }
-    return !boolean.boolean(p)
+    return !Boolean(p)
 };
 module.exports = check;
