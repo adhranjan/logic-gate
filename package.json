@@ -1,6 +1,6 @@
 {
   "name": "logic-gate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Logic gate operations",
   "main": "index.js",
   "scripts": {
