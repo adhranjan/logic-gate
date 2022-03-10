@@ -1,7 +1,8 @@
 let xor = require('./xor.js');
+let not = require('./not.js');
 
 const check = (...params) => {
-    return !xor(...params)
+    return not(xor(...params))
       
 };
 module.exports = check;

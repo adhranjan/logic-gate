@@ -1,7 +1,8 @@
-const isFunction = require('is-function');
+const not = require('./not.js');
+
 const eval = (first,second) => {
-    return ( first || second ) && !( first && second );
-  }
+    return ( first || second ) && not( first && second );
+}
   
 
 const check = (...params) => {

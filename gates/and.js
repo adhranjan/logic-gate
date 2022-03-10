@@ -1,11 +1,8 @@
-const isFunction = require('is-function');
+const invoker = require('../helper/invoker.js');
 const check = (...params) => {
     return params.reduce(
         (previousValue, currentValue) => {
-            if (isFunction(currentValue)) {
-                currentValue = currentValue()  
-            }
-            return Boolean(currentValue) && Boolean(previousValue)
+            return (invoker(currentValue)) && (invoker(previousValue))
         },
         true
       );
