@@ -1,6 +1,6 @@
 {
   "name": "logic-gate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Logic gate operations",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/adhranjan/logic-gate#readme",
   "dependencies": {
-    "is-function": "^1.0.2"
+    "is-function": "^1.0.2",
+    "testing": "^2.0.1"
   }
 }
